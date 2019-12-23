@@ -1,2 +1,3 @@
 src/components/**/*.tsx
 src/components/amChart/staticsMap/staticHeatMap.tsx
+src

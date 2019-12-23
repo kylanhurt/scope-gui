@@ -10,9 +10,11 @@ class StaticHeatMap extends PureComponent {
   constructor(props: any) {
     super(props);
     // create a ref to store the textInput DOM element
+    // @ts-ignore
     this.chartDB = createRef(); // tslint-disable-line
   }
   componentDidMount() {
+    // @ts-ignore
     const chart = am4core.create(this.chartDB.current, am4maps.MapChart);
 
     chart.geodata = am4geodata_worldLow;
