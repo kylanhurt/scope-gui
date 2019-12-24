@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import React, { PureComponent, createRef } from "react";
 import PropTypes from "prop-types";
 import * as am4core from "@amcharts/amcharts4/core";
@@ -10,11 +8,9 @@ class StaticHeatMap extends PureComponent {
   constructor(props: any) {
     super(props);
     // create a ref to store the textInput DOM element
-    // @ts-ignore
-    this.chartDB = createRef(); // tslint-disable-line
+    this.chartDB = createRef();
   }
   componentDidMount() {
-    // @ts-ignore
     const chart = am4core.create(this.chartDB.current, am4maps.MapChart);
 
     chart.geodata = am4geodata_worldLow;
