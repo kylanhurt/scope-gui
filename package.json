@@ -40,7 +40,7 @@
     "echarts-for-react": "^2.0.15-beta.0",
     "flag-icon-css": "^3.3.0",
     "google-maps-react": "^2.0.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "parallax-js": "^3.1.0",
     "peity-react": "0.0.7",
     "pnotify": "^4.0.0",
